@@ -6,4 +6,4 @@ app.get("/product",(req, res)=>{var p={ "id":45, "title":"Gerbera","description"
                                        res.send(p);
 });
 app.listen(2300);
-console.log("App is listening on port 8000");
+console.log("App is listening on port 2300");
